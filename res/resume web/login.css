@@ -1,0 +1,124 @@
+#sec{
+    height: 100vh;
+    border: 2px solid navy;
+    background-image: url(./cosmos-5809271_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#sec::before{
+    content: "";
+    height: 100vh;
+    width: 1200px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+
+}
+
+#fieldset{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    /* background-color:azure; */
+    /* opacity: 0.1; */
+    background-image: url(./astronaut-4106766_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+#fieldset::before{
+    content: "";
+    height: 410px;
+    width: 425px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    left: -1px;
+    top: -10px;
+    
+}
+
+.name{
+    font-size: 20px;
+    color: aliceblue;
+    position: relative;
+}
+
+.mane{
+    height: 30px;
+    width: 250px;
+    position: relative;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    background-color:lightgoldenrodyellow;color:black;
+    border-bottom: 2px solid navy;
+    border-radius: 10px;
+    
+
+}
+
+#t1,#txt1{
+    position: relative;
+    top: 20px;
+}
+
+#t2,#txt2{
+    position: relative;
+    top: 40px;
+}
+#t3,#txt3{
+    position: relative;
+    top: 60px;
+}
+
+#t4,#txt4{
+    position: relative;
+    top: 80px;
+}
+
+.btn{
+    height: 40px;
+    width: 120px;
+    
+    position: relative;
+    top: 120px;
+    left: 70px;
+}
+
+#log{
+    background-color:yellowgreen;
+}
+
+#log:hover{
+    height: 38px;
+    width: 119px;
+    cursor: pointer;
+    /* transition: 0.5s ease-in-out; */
+    background-color: aqua;
+}
+#can:hover{
+    height: 38px;
+    width: 119px;
+    cursor: pointer;
+    /* transition: 0.5s ease-in-out; */
+    background-color:violet;
+}
+#can{
+    background-color:lightsalmon;
+}
+
+#aaa{
+    position: relative;
+    color: azure;
+    top: 160px;
+    left: 130px;
+}

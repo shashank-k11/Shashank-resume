@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+#sec1{
+    height: 100vh;
+    border: 0px solid red;
+    background-image: url(./contact-us-2993000_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#sec1::before{
+    content: "";
+    height: 100vh;
+    width: 1250px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+
+}
+
+.con{
+    color: whitesmoke;
+    position: relative;
+    font-family: cursive;
+    font-size: xx-large;
+    top: 120px;
+    left: 200px;
+}
+#con2{
+    position: relative;
+    top: 150px;
+}
+
+#con3{
+    position: relative;
+    top: 180px;
+}
+#con4{
+    position: relative;
+    top: 200px;
+    
+}
+
+#phn{
+    color:yellow;
+    font-size: 25px;
+}
+#mai{
+    color: chartreuse;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#lin{
+    color: aquamarine;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#ins{
+    color:darkorange;
+    font-size: 25px;
+    text-decoration: none;
+}
+#fone{
+    position: relative;
+    top: -228px;
+    left:-55px;
+    font-size: 26px;
+}
+
+#fone:hover{
+    font-size: 20px;
+}
+
+#linkedin{
+    position: relative;
+    top: -120px;
+    font-size: 30px;
+    left: -52px;
+}
+#linkedin:hover{
+    font-size: 20px;
+
+}
+#mail
+{
+    position: relative;
+    top: -280px;
+    left: -55px;
+    font-size: 30px;
+}
+
+#mail:hover{
+    font-size: 20px;
+}
+#instagram{
+    position: relative;
+    top: -100px;
+    left: -53px;
+}
+#instagram:hover{
+    font-size: 20px;
+}
+
+#con9{
+    position: relative;
+    top: -360px;
+    left: 450px;
+    font-size: 40px;
+    color:yellow;
+    text-decoration: underline;
+    text-decoration-color:aqua;
+    text-shadow: 10px 10px 30px;
+    
+}
+
+#back{
+    height: 50px;
+    width: 200px;
+    border: 0px solid red;
+    position: relative;
+    left: 480px;
+    top: 190px;
+    background-color: aqua;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+

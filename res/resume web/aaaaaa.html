@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #loginForm {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loginForm">
+        <h2>Login</h2>
+        <form onsubmit="return validateLogin()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br>
+
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+    </div>
+
+    <script>
+        // Array to store username-password pairs
+        const users = [
+            { username: "user1", password: "pass1" },
+            { username: "user2", password: "pass2" },
+            // Add more users as needed
+        ];
+
+        function validateLogin() {
+            const usernameInput = document.getElementById("username").value;
+            const passwordInput = document.getElementById("password").value;
+
+            // Check if the entered credentials match any user in the array
+            const validUser = users.find(user => user.username === usernameInput && user.password === passwordInput);
+
+            if (validUser) {
+                document.getElementById("loginMessage").textContent = "Login successful!";
+            } else {
+                document.getElementById("loginMessage").textContent = "Invalid username or password. Please try again.";
+            }
+
+            // Prevent the form from submitting
+            return false;
+        }
+    </script>
+
+</body>
+</html>

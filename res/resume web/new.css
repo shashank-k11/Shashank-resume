@@ -1,0 +1,124 @@
+
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    
+}
+
+
+#sec1{
+    height: 100vh;
+    border: 0px solid blue;
+    
+}
+
+#img1{
+    height: 100vh;
+    background-image: url(./astronaut-1849402_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#img1::before{
+    content: "";
+    height: 100vh;
+    width: 1200px;
+    
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+#main{
+    border: 0px solid white;
+    height: 100px;
+    filter: brightness(90%);
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+}
+
+.nav{
+    border: 0px solid beige;
+    color: white;
+    /* filter: opacity(500%); */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: 550;   
+
+}
+
+#anc{
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav:hover{
+   
+    transition:1s ease-out;
+    color:chartreuse;
+
+}
+#int1{
+    position: relative;
+    color: brown;
+    font-size: xxx-large;
+    left: 200px;
+    top: 150px;
+}
+#int2{
+    position: relative;
+    color:darkgoldenrod;
+    font-size: xxx-large;
+    left:370px;
+    top: 55px;
+}
+
+#int3{
+    position: relative;
+    font-size: xxx-large;
+    color:skyblue;
+    left: 100px;
+    top: 30px;
+}
+
+#ast{
+    height: 250px;
+    width: 250px;
+    background-image: url(./—Pngtree—hand-drawn\ cartoon\ astronauts\ in\ space_4265525.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -40px;
+
+    animation: ding 14s ease-out 1 ;
+}
+
+@keyframes ding{
+
+    50%{transform: perspective(250px)  translateX(1100px) rotate(50deg) }
+}
+
+#ast2{
+    height: 100px;
+    width: 200px;
+    background-image: url(./gh-167-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    position: relative;
+    top: -200px;
+    left: 1200px;
+    animation: wel 7s  8s ease-out 1;
+}
+
+@keyframes wel{
+    100%{transform: translateX(-700px);}
+}
